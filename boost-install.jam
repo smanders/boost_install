@@ -64,11 +64,11 @@ local rule remap-library ( lib )
 
     case "zlib" :
 
-        return "z" ;
+        return "xpro::zlibstatic" ;
 
     case "bzip2" :
 
-        return "bz2" ;
+        return "xpro::bz2" ;
 
     case "icudt" :
 
